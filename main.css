@@ -34,7 +34,7 @@
     max-width: 400px; 
     }
   /* Animation for top circle */
-  #top-circle{
+  #m{
     animation: color-shift-top 7s infinite;
 }
 
@@ -42,15 +42,13 @@
   @keyframes color-shift-top{
 
         0%, 100%{
-            fill:rgb(black);
+            fill:green;
             }
             50%{
-                fill:rgb(red);
+                fill:red;
             }
         }
-        #top-circle{
-            fill:red;
-}
+ 
 
   /* Animation for middle circle */
   #middle-circle{
